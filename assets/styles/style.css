@@ -52,6 +52,36 @@ button {
     transition: all 0.3s ease-in-out;
 } 
 /* Estilos de Introducción */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #5a7d4b; /* Verde del fondo */
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro .content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px auto;
+    max-width: 700px;
+}
+
+.intro .content .highlight {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
 .sectors {
     display: flex;
     justify-content: center;
@@ -83,15 +113,14 @@ button {
     margin: 0;
 }
 
-/* Imágenes únicas para cada sector */
 .antillanca {
-    background-image: url('../images/antillanca.png'); /* Reemplaza con la imagen real */
+    background-image: url('../images/antillanca.png'); 
 }
 
 .anticura {
-    background-image: url('../images/anticura.png'); /* Reemplaza con la imagen real */
+    background-image: url('../images/anticura.png'); 
 }
 
 .aguas-calientes {
-    background-image: url('../images/aguas-calientes.png'); /* Reemplaza con la imagen real */
+    background-image: url('../images/aguas-calientes.png'); 
 }
