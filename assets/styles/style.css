@@ -51,38 +51,7 @@ button {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 } 
-/* Estilo de Introducción */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: white;
-    background-color: #5a7d4b; /* Verde del fondo */
-}
-
-.intro {
-    padding: 20px;
-    text-align: center;
-}
-
-.intro .content h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.intro .content p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin: 10px auto;
-    max-width: 700px;
-}
-
-.intro .content .highlight {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
+/* Estilos de Introducción */
 .sectors {
     display: flex;
     justify-content: center;
@@ -92,27 +61,37 @@ body {
 
 .sector {
     text-align: center;
-    color: #000; /* Texto negro */
-}
-
-.sector-image {
+    color: #000;
     width: 150px;
-    height: 150px;
-    background: url('../images/sector-placeholder.png') no-repeat center center/contain;
+    height: 200px;
     border-radius: 15px;
-    margin: 0 auto 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .sector p {
-    background: white;
-    border-radius: 15px;
-    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
     font-size: 1.1em;
     font-weight: bold;
+    margin: 0;
 }
 
+/* Imágenes únicas para cada sector */
+.antillanca {
+    background-image: url('../images/antillanca.png'); /* Reemplaza con la imagen real */
+}
 
-button:hover {
-    background-color: #ddd;
-    transform: scale(1.1);
+.anticura {
+    background-image: url('../images/anticura.png'); /* Reemplaza con la imagen real */
+}
+
+.aguas-calientes {
+    background-image: url('../images/aguas-calientes.png'); /* Reemplaza con la imagen real */
 }
