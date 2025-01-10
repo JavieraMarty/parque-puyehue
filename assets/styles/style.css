@@ -52,7 +52,7 @@ button {
     transition: all 0.3s ease-in-out;
 } 
 /* Estilos de Introducción */
-body {
+body.introduccion-page {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
